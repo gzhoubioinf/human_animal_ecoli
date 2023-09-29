@@ -2,7 +2,7 @@
 # human animal ecoli
 
 
-This project is a demonstration of utilizing XGBoost for classification tasks on genomic data. The process involves data pre-processing to transform genomic sequences into a manageable format, training an XGBoost model, and evaluating its performance.
+This project is a demonstration of utilizing XGBoost for classification tasks on Kmer data. The process involves data pre-processing to transform Kmer data into a manageable format, training an XGBoost model, and evaluating its performance.
 
 ---
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python script.py
+python main.py
 ```
 
 ---
