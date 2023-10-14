@@ -1,6 +1,11 @@
-import pickle as pkl
 import sys
-from src import kmer_ml
+import os
+main_dir = os.path.dirname(os.path.abspath(__file__))
+project_dir = os.path.dirname(main_dir)
+sys.path.append(project_dir)
+
+from kmer_ml import kmer_ml
+import pickle as pkl
 #from kmer_ml import get_datafilter, get_datamatrix, gridresearch_kfold, get_shapvalue
 import json
 import numpy as np
