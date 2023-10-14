@@ -42,7 +42,7 @@ python main.py input.json
 - The tool is available on DockerHub and may be fetched and run using the following commands:
 ```bash
 docker pull gzhoubioinf kmer ml:version109
-docker run -v SPWD:/data --rm -it kmer ml:version109 ./app.py -i input fasta file -0 /data/output report
+docker run -v $PWD:/data --rm -it kmer ml:version109 ./app.py -i input fasta file -0 /data/output report
 ```
 
 ### data plot 
