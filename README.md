@@ -29,10 +29,13 @@ pip install -r requirements.txt
 ---
 
 ## Usage
-
+### train data and get shap value
+Change parameters in input.json file
 ```bash
-python main.py
+python main.py input.json
 ```
+### data plot 
+import kmer_ml_pacakge.visualization to plot data
 
 ---
 

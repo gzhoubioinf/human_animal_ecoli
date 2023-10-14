@@ -1,0 +1,14 @@
+{
+  "//first_comment": "file path of chunkdata",
+  "chunkdata_path": "./dataset/",
+  "//second_comment:": "file path of traist_scoary",
+  "traits_scoary_path": "./dataset/",
+  "//third_comment:": "Class labels with 0,1 that will be input for data training and classification",
+  "class_label" : {
+    "HA": 0,
+    "HH": 1,
+    "AA": 2 },
+  "//fourth_comment": "number of chunkdata files that are selected. -1 to select all files",
+  "numb_files_select": 1, 
+  "cutoff": 0.01
+}
