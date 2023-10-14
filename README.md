@@ -31,9 +31,20 @@ pip install -r requirements.txt
 ## Usage
 ### train data and get shap value
 Change parameters in input.json file
+### Run tools
+
+There are two ways to run the tools
+
+- The package may be downloaded and run by the command
 ```bash
 python main.py input.json
 ```
+- The tool is available on DockerHub and may be fetched and run using the following commands:
+```bash
+docker pull gzhoubioinf kmer ml:version109
+docker run -v $PWD:/data --rm -it kmer ml:version109 ./app.py -i input fasta file -0 /data/output report
+```
+
 ### data plot 
 import kmer_ml_pacakge.visualization to plot data
 
