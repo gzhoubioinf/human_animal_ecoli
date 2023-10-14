@@ -1,6 +1,6 @@
 import pickle as pkl
 import sys
-from kmer_ml_package import kmer_ml
+from src import kmer_ml
 #from kmer_ml import get_datafilter, get_datamatrix, gridresearch_kfold, get_shapvalue
 import json
 import numpy as np
