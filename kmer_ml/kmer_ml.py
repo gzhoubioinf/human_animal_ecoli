@@ -284,7 +284,7 @@ def get_shapvalue(X, y, sub_bestfeature_indices,sub_bestfeature_name, best_para,
     exp_set = X_subset.copy()
     
     ## K sample
-    ksmp =10
+    ksmp =100
     background_summary = shap.sample(exp_set, ksmp)
 
     explainer = shap.KernelExplainer(best_model.predict, background_summary)
